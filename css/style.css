@@ -5,8 +5,11 @@
     padding: 0;
 }
 
+html {
+    background: url(./space.gif)
+}
+
 body{
-    height: 100vh;
     box-sizing: border-box;
     background-color: #000000;
     color: #F6F6F6;
@@ -74,11 +77,13 @@ img:hover {
 }
 
 @keyframes sombra {
-    0% {box-shadow: 5px 5px 30px 5px red;}
-    100% {box-shadow: 5px 5px 30px 5px #22D4FD; }
+    0% {box-shadow: 5px 5px 30px 5px rgb(47, 0, 255);}
+    50% {box-shadow: 5px 5px 30px 5px #22D4FD; }
+    100% {box-shadow: 5px 5px 30px 5px rgb(0, 60, 255);}
 }
 
-img {
+body {
     animation-name: sombra;
-    animation-duration: 4s;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
 }
