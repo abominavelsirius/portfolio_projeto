@@ -55,10 +55,30 @@ body{
     text-decoration: none;
     color: #000000;
     font-family: 'Montserrat', sans-serif;
+    transition: 0.5s;
+}
+
+.apresentacao__links__link:hover {
+ background-color: rgb(197, 62, 62);
 }
 
 img {
-    width: 400px;
-    height: 500px;
+    /* width: 400px;
+    height: 500px; */
     border-radius: 16px;
+    transition: 0.2s;
+}
+
+img:hover {
+    box-shadow: 5px 5px 30px 5px #22D4FD;
+}
+
+@keyframes sombra {
+    0% {box-shadow: 5px 5px 30px 5px red;}
+    100% {box-shadow: 5px 5px 30px 5px #22D4FD; }
+}
+
+img {
+    animation-name: sombra;
+    animation-duration: 4s;
 }
