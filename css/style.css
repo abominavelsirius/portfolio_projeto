@@ -69,11 +69,11 @@ img {
     /* width: 400px;
     height: 500px; */
     border-radius: 16px;
-    transition: 0.2s;
+    transition:all 4s ease-in-out;
 }
 
 img:hover {
-    box-shadow: 5px 5px 30px 5px #22D4FD;
+    box-shadow: 5px 5px 500px 5px #22D4FD;
 }
 
 @keyframes sombra {
