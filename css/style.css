@@ -57,6 +57,10 @@ body{
 }
 
 .apresentacao__links__link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
     width: 378px;
     text-align: center;
     border-radius: 16px;
@@ -71,7 +75,7 @@ body{
 }
 
 .apresentacao__links__link:hover {
- background-color: rgb(197, 62, 62);
+ background-color: #272727;
 }
 
 img {
