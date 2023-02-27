@@ -71,6 +71,7 @@ body{
     justify-content: space-between;
     border-radius: 16px;
     backdrop-filter: blur(10px);
+    gap: 82px;
 
 }
 
@@ -188,6 +189,29 @@ img:hover {
 
 
 
+/*  ================================================================= */
+
+/* // se for até esse tamanho, vai usar os estilos dentro */
+@media (max-width: 1200px) {
+    .cabecalho {
+        padding: 10%;
+    }
+
+    .cabecalho__menu {
+        justify-content: center;
+    }
+
+
+    .apresentacao {
+        flex-direction: column-reverse;
+        padding: 5%;
+    }
+
+    .apresentacao__conteudo {
+        width: auto;
+    }
+
+}
 
 
 
